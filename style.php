@@ -5,22 +5,21 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    /*
-    background: black url("gentletexture.jpg") no-repeat left top;
-    background-size: cover;
-    */
     color: rgb(0, 0, 0);
     background-color: black;
     font-family: Verdana, sans-serif;
     font-weight: bold;
-
     overflow-x: hidden;
+}
+
+#canvas {
+    z-index: -10;
 }
 
 .main {
     position: absolute;
     width: 70vw;
-    margin: 10vw;
+    margin: 10vw ;
     padding: 2vw 5vw 5vw;
 
 
@@ -36,12 +35,6 @@ body {
     border-radius: 20px;
     */
 }
-
-/*
-main > * {
-    word-wrap:break-word;
-}
-*/
 
 *:focus {
     border: 5px solid rgb(18, 66, 172);
@@ -115,6 +108,9 @@ small {
     text-decoration: underline;
 }
 
+#instructions {
+    font-size: 1em;
+}
 
 /*
 #email {

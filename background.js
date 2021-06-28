@@ -1,12 +1,19 @@
-    
+ 
+
+     
 let points = [];
 let mult;
 
-let docHeight = document.documentElement.scrollHeight;
+let main = document.getElementsByClassName('main');
+
+let docHeight = window.innerHeight; //document.body.scrollHeight;
+console.log(document.body.scrollHeight);
 
 function setup() {
 
-    createCanvas(window.innerWidth, docHeight); 
+    let canvas = createCanvas(window.innerWidth, docHeight);
+    canvas.position(0,0, 'fixed') 
+    canvas.id('canvas');
     background(0);
     //angleMode(DEGREES);
     noiseDetail(1);
