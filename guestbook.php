@@ -53,7 +53,7 @@ require 'procedures/connect-to-db.php';
             <a href="guestbook.php">Guest Book</a>
         </nav>
 
-        <h2 id="instructions">You need to sign the guest book before you can view it.</h2>
+        <h2 id="instructions">You must sign the guest book for access.</h2>
 
         <!-- FORM TO SIGN GUEST BOOK -->
         <div class="addpost">
@@ -74,3 +74,5 @@ require 'procedures/connect-to-db.php';
 </body>
 
 </html>
+
+

@@ -12,7 +12,7 @@ if($result->num_rows > 0) {
     //LOOP THROUGH DATA AND DISPLAY
     while($row = $result->fetch_assoc()) {
         echo '<article claass="posts">
-        <header class="names">' . $row['name'] . '</header><br/>
+        <header class="names">' . $row['name'] . '</header>
         <p class="messages">
         ' . $row['message'] . '
         </p>

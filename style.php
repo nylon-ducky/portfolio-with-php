@@ -9,6 +9,7 @@ body {
     background-color: black;
     font-family: Verdana, sans-serif;
     font-weight: bold;
+    font-size: 1.5em;
     overflow-x: hidden;
 }
 
@@ -26,7 +27,7 @@ body {
     
     background-color: rgba(245, 245, 245, 0.65);
     box-shadow: 0 0 10px 5px rgba(245, 245, 245, 0.5);
-    backdrop-filter: blur( 1.5px );
+    backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 20px;
     border: 1px solid rgba(245, 245, 245, 0.25);
@@ -109,25 +110,71 @@ small {
 }
 
 #instructions {
-    font-size: 1em;
-}
-
-/*
-#email {
-    width:fit-content;
+    font-size: 1.25em;
     text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+
+.addpost {
+    width: 65vw;
     margin: auto;
-    color:whitesmoke;
-    font-size: medium;
-    background-color: rgba(245, 245, 245, 0);
+    border-radius: 10px;
+    background-color: rgba(26, 95, 224, 0.5);
+    padding: 2vh 0;
+    /*rgba(93, 185, 241, 0.85);
+    */
+    
+}
+
+#postForm > *{
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 22.5px;
+    
+}
+
+.label {
+    font-size: 22.5px;
+    
+}
+
+#name, #message {
+    margin-top: -10px;
+    font-size: 22.5px;
+    padding: 15px;
     border: none;
-    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgb(1, 33, 139) inset;
+    background-color: rgba(92, 179, 230, 0.35);
+
+    text-align: center;
 }
 
-#Elabel {
-    font-size: x-small;
-    width: fit-content;
-    margin: auto;
+#name {
+    height: 30px;
 }
 
-*/
+
+#submit {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22.5px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 10px 3px rgb(1, 33, 129) inset;
+    background-color: rgba(92, 179, 230, 0.822);
+    
+}
+
+#guestBook { 
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
