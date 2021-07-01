@@ -49,7 +49,7 @@ require 'procedures/connect-to-db.php';
         <nav>
             <a href="index.php">Home</a>
             <a href="projects.html">Projects</a>
-            <a href="aboutme.html">About Me</a>
+            <a href="aboutme.php">About Me</a>
             <a href="guestbook.php">Guest Book</a>
         </nav>
 
