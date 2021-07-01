@@ -65,10 +65,15 @@
         <!-- CALL TO ACTION -->
         <footer id="contact">
             <h3>Look around!</h3>
-            <p>Feel free to send me an <a href="mailto:dursozd@gmail.com">email</a>, or checkout the <a
-                    href="visitor.html">Guest Book.</a></p>
-            <a href="mailto:dursozd@gmail.com" class="underline">dursozd@gmail.com</a>
-            <a href="visitors.html" class="underline">Guest Book</a>
+            <p>
+            Feel free to send me an 
+            <a href="mailto:dursodev@gmail.com">
+            email
+            </a>, or checkout the 
+            <a href="guestbook.php">Guest Book.</a>
+            </p>
+            <a href="mailto:dursodev@gmail.com" class="underline">dursodev@gmail.com</a>
+            <a href="guestbook.php" class="underline">Guest Book</a>
         </footer>
     </div>
 
