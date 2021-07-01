@@ -38,8 +38,7 @@
 
         <!-- DD HEADER -->
         <header class="head-container">
-            <a href="index.html" tabindex="0">
-                <!--  <img class="head" src="Zlogo.png">  -->
+            <a href="index.php" tabindex="0">
                 <h1 class="head">Developing Durso</h1>
             </a>
         </header>
@@ -59,7 +58,7 @@
                 <br />
                 Zach Durso
             </h2>
-            <p>A web developer with special interest in accessibility.</p>
+            <p id="pintro   ">A web developer with special interest in accessibility.</p>
         </div>
 
         <!-- CALL TO ACTION -->

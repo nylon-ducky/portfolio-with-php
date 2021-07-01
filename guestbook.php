@@ -39,12 +39,10 @@ require 'procedures/connect-to-db.php';
 
         <!-- DD HEADER -->
         <header class="head-container">
-            <a href="index.html" tabindex="0">
-                <!--  <img class="head" src="Zlogo.png">  -->
+            <a href="index.php" tabindex="0">
                 <h1 class="head">Developing Durso</h1>
             </a>
         </header>
-
         <!-- NAV -->
         <nav>
             <a href="index.php">Home</a>
@@ -53,7 +51,7 @@ require 'procedures/connect-to-db.php';
             <a href="guestbook.php">Guest Book</a>
         </nav>
 
-        <h2 id="instructions">You must sign the guest book for access.</h2>
+        <h2 id="instructions">Please sign the guest book for access.</h2>
 
         <!-- FORM TO SIGN GUEST BOOK -->
         <div class="addpost">

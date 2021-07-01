@@ -35,7 +35,8 @@ body {
 }
 
 *:focus {
-    border: 5px solid rgb(18, 66, 172);
+    border: 5px solid rgb(18, 66, 172); 
+    outline: 5px solid white;
     text-decoration: red underline;
 
 }
@@ -49,7 +50,10 @@ h1 {
     text-shadow:1px 2px 4px #ffffff;
 }
 
-
+#headlink:focus {
+    border: 5px solid rgb(18, 66, 172); 
+    outline: 5px solid white;
+}
 
 a {
     text-decoration: none;
@@ -87,6 +91,11 @@ small {
 
 .intro {
     margin: auto;
+    text-align: center;
+}
+
+#pintro {
+    text-align: left;
 }
 
 #contact {
@@ -133,6 +142,7 @@ small {
     color: white;
     font-weight: bold;
     font-size: 22.5px;
+    text-decoration: none;
     
 }
 
