@@ -58,7 +58,7 @@
                 <br />
                 Zach Durso
             </h2>
-            <p id="pintro   ">A web developer with special interest in accessibility.</p>
+            <p id="pintro">A web developer with special interest in accessibility.</p>
         </div>
 
         <!-- CALL TO ACTION -->

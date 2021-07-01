@@ -94,7 +94,7 @@ small {
     text-align: center;
 }
 
-#pintro {
+.intro > #pintro {
     text-align: left;
 }
 
