@@ -19,5 +19,5 @@ if($result->num_rows > 0) {
         </article><hr/>';
     }
 } else {
-    echo ' no data in table';
+    echo ' No data in table.';
 }

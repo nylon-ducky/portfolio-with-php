@@ -20,7 +20,7 @@ body {
 .main {
     position: absolute;
     width: 70vw;
-    margin: 10vw ;
+    margin: 10vw;
     padding: 2vw 5vw 5vw;
 
 
@@ -31,10 +31,7 @@ body {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 20px;
     border: 1px solid rgba(245, 245, 245, 0.25);
-    /*
-    background-color: rgba(245, 245, 245, 0.75);
-    border-radius: 20px;
-    */
+    
 }
 
 *:focus {
@@ -123,8 +120,7 @@ small {
     border-radius: 10px;
     background-color: rgba(26, 95, 224, 0.5);
     padding: 2vh 0;
-    /*rgba(93, 185, 241, 0.85);
-    */
+
     
 }
 
@@ -140,10 +136,11 @@ small {
     
 }
 
+/*
 .label {
     font-size: 22.5px;
-    
 }
+*/
 
 #name, #message {
     margin-top: -10px;
@@ -177,4 +174,71 @@ small {
     font-size: 1.5em;
     font-weight: bolder;
 }
+
+
+/* ABOUT ME PAGE */
+
+#hello {
+    margin: 50px auto;
+}
+
+#hello, h3, h4, h5 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#me {
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+footer {
+    text-align: right;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  font-size: .75em;
+}
+
 
