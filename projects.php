@@ -2,6 +2,7 @@
 require 'procedures/connect-to-db.php';
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +32,7 @@ require 'procedures/connect-to-db.php';
 
     <!-- MAIN SCRIPT -->
     <script defer src="app.js"></script>
-    <title>Guest Book</title>
+    <title>Projects</title>
 </head>
 
 <body>
@@ -51,26 +52,25 @@ require 'procedures/connect-to-db.php';
             <a href="guestbook.php">Guest Book</a>
         </nav>
 
-        <h2 id="instructions">Please sign the guest book for access.</h2>
 
-        <!-- FORM TO SIGN GUEST BOOK -->
-        <div class="addpost">
-            <form id="postForm" method="POST" action="procedures/add-to-db.php">
-                <label for="name">Name or Handle: </label>
-                <br />
-                <input type="text" name="name" id="name">
-                <br />
-                <label for="message">Message: </label>
-                <br />
-                <textarea id="message" name="message" rows="10" cols="20"></textarea>
-                <br />
-                <button name="submit" id="submit" value="submit">Post</button>
-            </form>
+        <div class="projects">
+
+            <h2>Manic Mechanic</h2>
+
+            <a href="https://manicmechanic.netlify.app/index.html">
+                <img class="img2" src="assets/mmdesktop.png">
+                <small> Click to visit the Manic Mechanic website. </small>
+            </a>
+
+            <p>
+                This was a fun project to make, and it was one of the first full fledged projects I built. It was a great experience and really helped me develop my css skills.
+            </p>
+
+
+
+
         </div>
-
     </div>
 </body>
 
 </html>
-
-

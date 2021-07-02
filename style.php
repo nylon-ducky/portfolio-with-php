@@ -252,3 +252,29 @@ footer {
 }
 
 
+.projects {
+    width: fit-content;
+    margin: auto;
+}
+
+.projects h2 {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.projects img {
+    width: 47vw;
+    height: 30vw;
+}
+
+.projects small {
+    display: block;
+    font-size: .75em;
+    width: 47vw;
+    text-align: center;
+}
+
+.projects p {
+    font-size: 1em;
+    width: 47vw;
+}

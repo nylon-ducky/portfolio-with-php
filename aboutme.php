@@ -23,7 +23,7 @@
     <script defer src="app.js"></script>
 
 
-    <title>Developing Durso</title>
+    <title>About Me</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <!-- NAV -->
         <nav>
             <a href="index.php">Home</a>
-            <a href="projects.html">Projects</a>
+            <a href="projects.php">Projects</a>
             <a href="aboutme.php">About Me</a>
             <a href="guestbook.php">Guest Book</a>
         </nav>

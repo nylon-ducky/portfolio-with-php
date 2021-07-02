@@ -49,7 +49,7 @@ if ($conn->query($sql) === TRUE) {
 
     <!-- MAIN SCRIPT -->
     <script src="../app.js"></script>
-    <title>Developing Durso</title>
+    <title>Guest Book</title>
 
 <body>
     <div class="main">
@@ -65,7 +65,7 @@ if ($conn->query($sql) === TRUE) {
         <!-- NAV -->
         <nav>
             <a href="../index.php">Home</a>
-            <a href="../projects.html">Projects</a>
+            <a href="../projects.php">Projects</a>
             <a href="../aboutme.php">About Me</a>
             <a href="../guestbook.php">Guest Book</a>
         </nav>
@@ -78,6 +78,7 @@ if ($conn->query($sql) === TRUE) {
         </div>
 
     </div>
+
 </body>
 
 </html>
