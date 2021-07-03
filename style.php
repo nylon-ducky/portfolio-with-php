@@ -115,6 +115,10 @@ small {
     text-decoration: underline;
 }
 
+
+/* Guest Book */
+
+
 #instructions {
     font-size: 1.25em;
     text-align: center;
@@ -145,12 +149,6 @@ small {
     text-decoration: none;
     
 }
-
-/*
-.label {
-    font-size: 22.5px;
-}
-*/
 
 #name, #message {
     margin-top: -10px;
@@ -187,6 +185,7 @@ small {
 
 
 /* ABOUT ME PAGE */
+
 
 #hello {
     margin: 50px auto;
@@ -265,6 +264,7 @@ footer {
 .projects img {
     width: 47vw;
     height: 30vw;
+    
 }
 
 .projects small {
@@ -278,3 +278,41 @@ footer {
     font-size: 1em;
     width: 47vw;
 }
+
+.buttons {
+    display: flex;
+    width: auto;
+    height: 40px;
+    margin: 0 auto;
+    
+}
+
+.viewlive, .viewmore {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: center;
+    margin: 10px auto 0;
+    padding: 5px;
+    
+    line-height: 15px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    font-family: "Arial Black", sans-serif;
+
+    cursor: pointer;
+
+}
+
+.viewlive {
+    background-color: rgba(255, 0, 0, .55);
+}
+
+.viewmore {
+    background-color: rgba(92, 179, 230, 0.55);
+}
+
+
+
+

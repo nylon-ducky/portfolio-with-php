@@ -31,7 +31,8 @@ require 'procedures/connect-to-db.php';
     <script src="background.js"></script>
 
     <!-- MAIN SCRIPT -->
-    <script defer src="app.js"></script>
+    <script src="app.js"></script>
+
     <title>Projects</title>
 </head>
 
@@ -45,7 +46,7 @@ require 'procedures/connect-to-db.php';
             </a>
         </header>
         <!-- NAV -->
-        <nav>
+        <nav id="nav">
             <a href="index.php">Home</a>
             <a href="projects.php">Projects</a>
             <a href="aboutme.php">About Me</a>
@@ -53,23 +54,39 @@ require 'procedures/connect-to-db.php';
         </nav>
 
 
-        <div class="projects">
+
+        <div class="projects" id="mechanic">
 
             <h2>Manic Mechanic</h2>
 
-            <a href="https://manicmechanic.netlify.app/index.html">
-                <img class="img2" src="assets/mmdesktop.png">
-                <small> Click to visit the Manic Mechanic website. </small>
-            </a>
+            <div class="buttons">
+                <a class="viewlive" role="link" href="https://manicmechanic.netlify.app/index.html">View Live</a>
+
+                <span role="button" class="viewmore" onclick="openmore(moremechanic)">More Info</span>
+            </div>
+
+            <img id="mechanicdesktop" src="assets/mmdesktop.png">
 
             <p>
-                This was a fun project to make, and it was one of the first full fledged projects I built. It was a great experience and really helped me develop my css skills.
+                This was a fun project to make, and it was one of the first full fledged websites I built. It was a great experience and really let me work on my design skills.
             </p>
 
 
-
-
         </div>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 </body>
 
