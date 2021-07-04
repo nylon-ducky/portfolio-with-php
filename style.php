@@ -253,7 +253,7 @@ footer {
 
 .projects {
     width: fit-content;
-    margin: auto;
+    margin: 2vh auto 0;
 }
 
 .projects h2 {
@@ -287,7 +287,7 @@ footer {
     
 }
 
-.viewlive, .viewmore {
+.viewlive, .readmore, .readless {
     display: flex;
     justify-content: space-evenly;
     vertical-align: center;
@@ -300,6 +300,7 @@ footer {
     border-radius: 10px;
 
     font-family: "Arial Black", sans-serif;
+    font-size: 1em;
 
     cursor: pointer;
 
@@ -309,8 +310,17 @@ footer {
     background-color: rgba(255, 0, 0, .55);
 }
 
-.viewmore {
+.readmore {
     background-color: rgba(92, 179, 230, 0.55);
+    
+}
+
+.readless {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+#mtxt {
+    display: none;
 }
 
 

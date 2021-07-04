@@ -54,15 +54,28 @@ require 'procedures/connect-to-db.php';
         </nav>
 
 
+        <div class="projects">
+
+            <h2>PHP Recipes</h2>
+
+            <div class="buttons">
+                <a class="viewlive" href="https://manicmechanic.netlify.app/index.html">View Live</a>
+
+                <button class="readmore" onclick="readMore()" >Read More</button>
+            </div>
+        
+        </div>
+
+
 
         <div class="projects" id="mechanic">
 
             <h2>Manic Mechanic</h2>
 
             <div class="buttons">
-                <a class="viewlive" role="link" href="https://manicmechanic.netlify.app/index.html">View Live</a>
+                <a class="viewlive" href="https://manicmechanic.netlify.app/index.html">View Live</a>
 
-                <span role="button" class="viewmore" onclick="openmore(moremechanic)">More Info</span>
+                <button class="readmore" onclick="readMore(mtxt)" >Read More</button>
             </div>
 
             <img id="mechanicdesktop" src="assets/mmdesktop.png">
@@ -70,24 +83,43 @@ require 'procedures/connect-to-db.php';
             <p>
                 This was a fun project to make, and it was one of the first full fledged websites I built. It was a great experience and really let me work on my design skills.
             </p>
+                
+            <div id="mtxt">
+                <p>
+                    This is just a static website designed for a fictional business. I really just wanted to build a full, realistic site thats better than what a lot of my local mechanics have.  
+                </p>
 
+                <p>
+                    For this project I used some jQuery and Bootstrap as well as the <a href="https://formsubmit.co/">formsubmit.co</a> action attribute to have the form data sent directly to an email address that I made specifically for this website. I decided to go with this because I thought it would more than likely, be what a local mechanic would want from a website. This way there's no need for a back end and no need for paid hosting. But still allows clients to schedule an appointment (in the very loose fashion that my local mechanics do) and contact them with questions or commendation. 
+                </p>
+                <button class="readless" onclick="readLess(mtxt)">Read Less</button>
+            </div>
 
         </div>
-
-       
-
-
-
-
-
-
-
-
-
 
 
 
     </div>
+
+
+    <script>
+
+    let mtxt = document.getElementById('mtxt');
+
+
+    function readMore(eID) {
+
+       eID.style.display = "block";
+       
+    }
+
+    function readLess(eID) {
+
+       eID.style.display = "none";
+       
+    }
+
+    </script>
 </body>
 
 </html>
