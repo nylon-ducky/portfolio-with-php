@@ -253,7 +253,7 @@ footer {
 
 .projects {
     width: fit-content;
-    margin: 2vh auto 0;
+    margin: 4vh auto;
 }
 
 .projects h2 {
@@ -262,9 +262,9 @@ footer {
 }
 
 .projects img {
-    width: 47vw;
-    height: 30vw;
-    
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
 }
 
 .projects small {
@@ -277,6 +277,10 @@ footer {
 .projects p {
     font-size: 1em;
     width: 47vw;
+}
+
+.projects p a {
+    text-decoration: underline;
 }
 
 .buttons {
@@ -292,7 +296,7 @@ footer {
     justify-content: space-evenly;
     vertical-align: center;
     margin: 10px auto 0;
-    padding: 5px;
+    padding: 6px;
     
     line-height: 15px;
 
@@ -319,10 +323,36 @@ footer {
     background-color: rgba(255, 255, 255, 0.55);
 }
 
-#mtxt {
+#mtxt, #w2txt, #wtxt, #mclock, #mcalc, #mcloud, #mwhale {
     display: none;
 }
 
+#mechanic img {
+    width: 47vw;
+    height: 25vw;
+}
 
+#weatherwheel img {
+    width: 40vw;
+    height: 40vw;
+}
 
+#cweather img {
+    width: 40vw;
+    height: 36vw;
+}
 
+#cloudHopper img, #whale img {
+    width: 35vw;
+    height: 50vw;
+}
+
+#clock img {
+    width: 45vw;
+    height: 40vw;
+}
+
+#calculator img {
+    width: 40vw;
+    height: 40vw;
+}
