@@ -92,6 +92,9 @@ require 'procedures/connect-to-db.php';
                 <p>
                     For this project I used some jQuery and Bootstrap as well as the <a href="https://formsubmit.co/">formsubmit.co</a> action attribute to have the form data sent directly to an email address that I made specifically for this website. I decided to go with this because I thought it would more than likely, be what a local mechanic would want from a website. This way there's no need for a back end and no need for paid hosting. But still allows clients to schedule an appointment (in the very loose fashion that my local mechanics do) and contact them with questions or commendation.
                 </p>
+
+                    <img id="mechanicmobile" src="assets/mechmobile.png">
+
                 <button class="readless" onclick="readLess(mtxt)">Read Less</button>
             </div>
         </div>
