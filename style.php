@@ -26,7 +26,7 @@ body {
 
     
     background-color: rgba(245, 245, 245, 0.65);
-    box-shadow: 0 0 10px 5px rgba(245, 245, 245, 0.5);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.65);
     backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 20px;
@@ -323,8 +323,13 @@ footer {
     background-color: rgba(255, 255, 255, 0.55);
 }
 
-#mtxt, #w2txt, #wtxt, #mclock, #mcalc, #mcloud, #mwhale {
+#mtxt, #w2txt, #wtxt, #mclock, #mcalc, #mcloud, #mwhale, #mrecipes {
     display: none;
+}
+
+.recipeHome {
+    width: 47vw;
+    height: 25vw;
 }
 
 #mechanic img {

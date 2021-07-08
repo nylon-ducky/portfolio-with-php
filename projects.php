@@ -59,9 +59,30 @@ require 'procedures/connect-to-db.php';
             <h2>PHP Recipes</h2>
 
             <div class="buttons">
-                <a class="viewlive" href="https://manicmechanic.netlify.app/index.html">View Live</a>
+                <a class="viewlive" href="https://github.com/nylon-ducky/a11y">View Code</a>
 
-                <button class="readmore" onclick="readMore()">Read More</button>
+                <button class="readmore" onclick="readMore(mrecipes)">Read More</button>
+            </div>
+
+            <img class="recipeHome" src="assets/recipe-home.png">
+
+            <p>
+                I had a lot of fun making this recipe app because it was my first PHP project. It may not look pretty but it is very functional. You can add a recipe to the database, and it will automatically display on the home page, and it uses the Edamam API so you can search for more specific recipes. Also, because of the super simple design, it's mobile friendly!
+            </p>
+
+            <div id="mrecipes">
+            <img src="assets/recipemobile.png">
+
+            <p>
+                As my first PHP project, I was able to learn a lot! I created a database and a table, connected to them, and saved some form input. It may not be super exciting to a pro, but for me, who didnt know a thing about php before this, it's really pretty cool! 
+            </p>
+
+            <p>
+                There's still a lot more I could do with this, like add something like a shopping cart to round up some recipes for a whole meal or just spend more time on styling, and I very well may go back and do that, but for now, I have another PHP project that I'm really excited to start! This project was more or less just to get to know PHP and see how quickly I could pick it up. Now that I know where I stand, I can't wait to put it to use.
+            </p>
+            
+            <img class="recipeHome" src="assets/recipes.png">
+            <button class="readless" onclick="readLess(mrecipes)">Read Less</button>
             </div>
 
         </div>
