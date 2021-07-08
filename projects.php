@@ -71,18 +71,22 @@ require 'procedures/connect-to-db.php';
             </p>
 
             <div id="mrecipes">
-            <img src="assets/recipemobile.png">
+                <img src="assets/recipemobile.png">
 
-            <p>
-                As my first PHP project, I was able to learn a lot! I created a database and a table, connected to them, and saved some form input. It may not be super exciting to a pro, but for me, who didnt know a thing about php before this, it's really pretty cool! 
-            </p>
+                <p>
+                    As my first PHP project, I was able to learn a lot! I created a database and a table, connected to them, and saved some form input. It may not be super exciting to a pro, but for me, who didnt know a thing about php before this, it's really pretty cool!
+                </p>
 
-            <p>
-                There's still a lot more I could do with this, like add something like a shopping cart to round up some recipes for a whole meal or just spend more time on styling, and I very well may go back and do that, but for now, I have another PHP project that I'm really excited to start! This project was more or less just to get to know PHP and see how quickly I could pick it up. Now that I know where I stand, I can't wait to put it to use.
-            </p>
-            
-            <img class="recipeHome" src="assets/recipes.png">
-            <button class="readless" onclick="readLess(mrecipes)">Read Less</button>
+                <p>
+                    There's still a lot more I could do with this, like add something like a shopping cart to round up some recipes for a whole meal or just spend more time on styling, and I very well may go back and do that, but for now, I have another PHP project that I'm really excited to start! This project was more or less just to get to know PHP and see how quickly I could pick it up. Now that I know where I stand, I can't wait to put it to use.
+                </p>
+
+                <p>
+                    This project is not deployed yet, so unfortunately you can only look through the code for now.
+                </p>
+
+                <img class="recipeHome" src="assets/recipes.png">
+                <button class="readless" onclick="readLess(mrecipes)">Read Less</button>
             </div>
 
         </div>
@@ -114,7 +118,7 @@ require 'procedures/connect-to-db.php';
                     For this project I used some jQuery and Bootstrap as well as the <a href="https://formsubmit.co/">formsubmit.co</a> action attribute to have the form data sent directly to an email address that I made specifically for this website. I decided to go with this because I thought it would more than likely, be what a local mechanic would want from a website. This way there's no need for a back end and no need for paid hosting. But still allows clients to schedule an appointment (in the very loose fashion that my local mechanics do) and contact them with questions or commendation.
                 </p>
 
-                    <img id="mechanicmobile" src="assets/mechmobile.png">
+                <img id="mechanicmobile" src="assets/mechmobile.png">
 
                 <button class="readless" onclick="readLess(mtxt)">Read Less</button>
             </div>
@@ -204,7 +208,7 @@ require 'procedures/connect-to-db.php';
                 </p>
 
                 <p>
-                    One thing this game does have going for it is that it displays your score once the game ends. The score is just based on how many platforms you were able to land on. 
+                    One thing this game does have going for it is that it displays your score once the game ends. The score is just based on how many platforms you were able to land on.
                 </p>
 
                 <button class="readless" onclick="readLess(mcloud)">Read Less</button>
@@ -212,7 +216,7 @@ require 'procedures/connect-to-db.php';
         </div>
 
         <div class="projects" id="whale">
-            
+
             <h2>Whale</h2>
 
             <div class="buttons">
@@ -228,13 +232,13 @@ require 'procedures/connect-to-db.php';
             </p>
 
             <div id="mwhale">
-                    <p>
-                        This game could also use the same improvements as Cloud Hopper. Instructions on how to play (use the space bar to jump) and another screen to display score, levels, and instructions.
-                    </p>
+                <p>
+                    This game could also use the same improvements as Cloud Hopper. Instructions on how to play (use the space bar to jump) and another screen to display score, levels, and instructions.
+                </p>
 
-                    <p>
-                        I really enjoyed making this game and was able to learn a lot. Not only thanks to all the documentation on making javascript games like this, but because so many people had already done remakes of existing games, so there were plenty of guides for this game specifically.
-                    </p>
+                <p>
+                    I really enjoyed making this game and was able to learn a lot. Not only thanks to all the documentation on making javascript games like this, but because so many people had already done remakes of existing games, so there were plenty of guides for this game specifically.
+                </p>
 
                 <button class="readless" onclick="readLess(mwhale)">Read Less</button>
             </div>
@@ -291,7 +295,7 @@ require 'procedures/connect-to-db.php';
             </p>
 
             <div id="mcalc">
-                
+
                 <p>
                     I was surprised to find out after getting into the tutorial, that I was actually rather close to getting some of the logic written successfully when I was trying to do it on my own, but I had missed a few key things.
                 </p>
@@ -299,7 +303,7 @@ require 'procedures/connect-to-db.php';
                 <p>
                     If I were to go back to this and make some improvements, I think the only things I would change are the fact that it doesnt show the math it did to get to the answer once it displays the answer, and I don't think I took account for the use of negative numbers, so thats something that would really need to be fixed before actually using this calculator.
                 </p>
-                
+
                 <button class="readless" onclick="readLess(mcalc)">Read Less</button>
 
             </div>
