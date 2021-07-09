@@ -228,7 +228,7 @@ require 'procedures/connect-to-db.php';
             <img src="assets/whale.png">
 
             <p>
-                This was another fun little JavaScript game I did in the earlier stages of my coding adventure. This one was more fun, however because there was some more complicated logic that I had to figure out. But I had a whole lot of documentation from so many other people doing their own versions of floppy bird, so that was really helpful.
+                This was another fun little JavaScript game I did in the earlier stages of my coding adventure. This one was more fun because there was some more complicated logic that I had to figure out, but it wasn't too difficult though, because I had access to a whole lot of documentation from so many other people doing their own versions of flappy bird.
             </p>
 
             <div id="mwhale">
@@ -258,16 +258,16 @@ require 'procedures/connect-to-db.php';
             <img src="assets/clock.png">
 
             <p>
-                This project was pretty fun, and was inspired by a video I saw from <a href="https://youtu.be/E4RyStef-gY">Coding Train</a>.
+                This project was pretty fun, and was inspired by a video I saw from <a href="https://youtu.be/E4RyStef-gY">Coding Train</a>. It's pretty plain, nowhere near as cool as some of the ones he showed, but those were made with p5.js and I used p5 for the background of this website, so there might be a new, cooler clock coming soon!
             </p>
 
             <div id="mclock">
                 <p>
-                    He used p5.js to make a really cool looking clock and showed some other really awesome examples from the website he was inspired by. I however just used plain JavaScript and CSS because it was done pretty early on into my coding adventure.
+                    The guy on Coding Train used p5.js to make a really cool looking clock and showed some other really awesome examples from the website he was inspired by. I however just used plain JavaScript and CSS because it was done pretty early on into my coding adventure.
                 </p>
 
                 <p>
-                    I did however, try to do one thing to make it more interesting. I wanted the hour hand to display the time like a digital clock because I know some people can't read an analog clock. the time is also displayed in the top left hand corner just because the hour hand is a little squished.
+                    I did try to do one thing to make it more interesting. I wanted the hour hand to display the time like a digital clock because I know some people can't read an analog clock. The time is also displayed in the top left hand corner just because the hour hand is a little squished.
                 </p>
                 <!--
                 <p>
@@ -291,17 +291,17 @@ require 'procedures/connect-to-db.php';
             <img src="assets/calculator.png">
 
             <p>
-                This is a pretty simple calculator. It was one of the first projects I made when I started learning JavaScript, but I found the logic to be pretty challenging to write on my own, so after trying to do it alone for an hour or two, I decided to follow a tutorial.
+                This is a pretty simple calculator. It was one of the first projects I made when I started learning JavaScript, but I found the logic to be pretty challenging to write on my own, so after trying to do it on my own for an hour or two, I decided to follow a tutorial.
             </p>
 
             <div id="mcalc">
 
                 <p>
-                    I was surprised to find out after getting into the tutorial, that I was actually rather close to getting some of the logic written successfully when I was trying to do it on my own, but I had missed a few key things.
+                    I was surprised to find out after getting into the tutorial, that I was actually rather close to getting some parts of the logic written successfully when I was trying to do it on my own, but I had missed a few key things.
                 </p>
 
                 <p>
-                    If I were to go back to this and make some improvements, I think the only things I would change are the fact that it doesnt show the math it did to get to the answer once it displays the answer, and I don't think I took account for the use of negative numbers, so thats something that would really need to be fixed before actually using this calculator.
+                    If I were to go back to this and make some improvements, I think the only things I would change are the fact that it doesnt show the math it did to get to the answer once it gets displayed, and I don't think I took account for the use of negative numbers, so thats something that would really need to be fixed before actually using this calculator.
                 </p>
 
                 <button class="readless" onclick="readLess(mcalc)">Read Less</button>
