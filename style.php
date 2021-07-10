@@ -361,3 +361,28 @@ footer {
     width: 40vw;
     height: 40vw;
 }
+
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 2.5em;
+        word-spacing: 0em;
+        
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 2em;
+        word-spacing: 0;
+    }
+
+    #canvas {
+        width: 100vw;
+        height: 100vh;
+    }
+}

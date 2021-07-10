@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap" rel="stylesheet">
 
     <!-- p5 JS CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"
         integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script media="screen and (min-width: 675px)" src="background.js"></script>
+    <script src="background.js"></script>
 
     <!-- MAIN SCRIPT -->
     <script defer src="app.js"></script>

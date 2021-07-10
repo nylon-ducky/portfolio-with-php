@@ -10,13 +10,13 @@ let main = document.getElementsByClassName('main');
 
 let docHeight = window.innerHeight; //document.body.scrollHeight;
 
-function p5() {
+
 
 function setup() {
     frameRate(30);
     pixelDensity(1);
     
-    let canvas = createCanvas();//window.innerWidth, docHeight);
+    let canvas = createCanvas(window.innerWidth, docHeight);
     canvas.position(0,0, 'fixed'); 
     canvas.id('canvas');
     background(0);
@@ -34,13 +34,18 @@ function setup() {
     }
 
     mult = random(0.00275, 0.005);
-
+    
+    
 }
 
 
 function draw() {
     noStroke();
-    noLoop();
+
+    console.log(frameCount);
+    if(frameCount == 100) {
+        noLoop();
+    }
     
     for(let i = 0; i < points.length; i++) {
 
@@ -56,18 +61,18 @@ function draw() {
 
         ellipse(points[i].x, points[i].y, 1);
     }
+    
 }
 
 
 function windowResized() {
 
     resizeCanvas(windowWidth, windowHeight);
-    setup()
-    draw()
+    redraw()
 }
 
 
 
 
-}
+
 
