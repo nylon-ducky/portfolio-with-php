@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script defer src="background.js"></script>
+    <script media="screen and (min-width: 675px)" src="background.js"></script>
 
     <!-- MAIN SCRIPT -->
     <script defer src="app.js"></script>

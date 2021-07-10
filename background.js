@@ -1,5 +1,7 @@
  
 
+    
+
      
 let points = [];
 let mult;
@@ -8,10 +10,14 @@ let main = document.getElementsByClassName('main');
 
 let docHeight = window.innerHeight; //document.body.scrollHeight;
 
-function setup() {
+function p5() {
 
-    let canvas = createCanvas(window.innerWidth, docHeight);
-    canvas.position(0,0, 'fixed') 
+function setup() {
+    frameRate(30);
+    pixelDensity(1);
+    
+    let canvas = createCanvas();//window.innerWidth, docHeight);
+    canvas.position(0,0, 'fixed'); 
     canvas.id('canvas');
     background(0);
     //angleMode(DEGREES);
@@ -28,12 +34,13 @@ function setup() {
     }
 
     mult = random(0.00275, 0.005);
+
 }
 
 
 function draw() {
     noStroke();
-    
+    noLoop();
     
     for(let i = 0; i < points.length; i++) {
 
@@ -61,4 +68,6 @@ function windowResized() {
 
 
 
+
+}
 
