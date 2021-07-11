@@ -256,6 +256,9 @@ footer {
 }
 
 
+/* PROJECTS PAGE */
+
+
 .projects {
     width: fit-content;
     margin: 4vh auto;
@@ -282,6 +285,7 @@ footer {
 .projects p {
     font-size: 1em;
     width: 47vw;
+    margin: auto;
 }
 
 .projects p a {
@@ -290,7 +294,8 @@ footer {
 
 .buttons {
     display: flex;
-    width: auto;
+    justify-content: space-evenly;
+    width: 47vw;
     height: 40px;
     margin: 0 auto;
     
@@ -387,6 +392,12 @@ footer {
     nav a {
         font-size: 18px;
     }
+
+    .viewlive, .readless, .readmore {
+        font-size: .75em;
+    }
+
+
 }
 
 
@@ -415,7 +426,28 @@ footer {
         width: 70vw;
     }
 
+    .viewlive, .readless, .readmore {
+        font-size: .75em;
+    }
     
+    .buttons {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .viewlive, .readless, .readmore {
+        font-size: 15px;
+        
+    }
+
+    .buttons {
+        width: 60vw;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -477,6 +509,24 @@ footer {
         text-align: center;
     }
 
-    
+    .viewlive, .readless, .readmore {
+        font-size: 15px;
+        
+    }
+
+    .buttons {
+        width: 70vw;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .viewlive, .readless, .readmore {
+        font-size: 8px;   
+    }
+
+    .buttons {
+        width: 90vw;
+    }
 
 }
