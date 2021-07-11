@@ -28,7 +28,7 @@ require 'procedures/connect-to-db.php';
     <link rel="stylesheet" href="style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script src="background.js"></script>
+    <script defer src="background.js?<?php echo time();?>"></script>
 
     <!-- MAIN SCRIPT -->
     <script src="app.js"></script>
@@ -71,7 +71,7 @@ require 'procedures/connect-to-db.php';
             </p>
 
             <div id="mrecipes">
-                <img src="assets/recipemobile.png">
+                <img id="rmobile" src="assets/recipemobile.png">
 
                 <p>
                     As my first PHP project, I was able to learn a lot! I created a database and a table, connected to them, and saved some form input. It may not be super exciting to a pro, but for me, who didnt know a thing about php before this, it's really pretty cool!

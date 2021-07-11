@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script defer src="background.js"></script>
+    <script defer src="background.js?<?php echo time();?>"></script>
 
     <!-- MAIN SCRIPT -->
     <script defer src="app.js"></script>
@@ -71,7 +71,7 @@
             <h5>Thats me!</h5>
 
             <p>
-                On a more personal level, I identify as transgender, although that's not a solid defenition of who I am. At the end of the day,
+                On a more personal level, I identify as transgender, but at the end of the day,
                 <span id="me">I am simply Me.</span> Whatever that may be to you. I don't particularly care for labels because everyone is an individual and I feel like labels take some of that away. So thank you for taking the time to get to know me, a friend, a colleague, or simply
             </p>
 

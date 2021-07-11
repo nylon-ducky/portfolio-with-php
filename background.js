@@ -10,7 +10,7 @@ let main = document.getElementsByClassName('main');
 
 let docHeight = window.innerHeight; //document.body.scrollHeight;
 
-
+ 
 
 function setup() {
     frameRate(30);
@@ -35,15 +35,19 @@ function setup() {
 
     mult = random(0.00275, 0.005);
     
-    
+   
 }
 
 
 function draw() {
     noStroke();
 
+    let ww = Math.floor(window.innerWidth/3.5);
+ 
     console.log(frameCount);
-    if(frameCount == 100) {
+    
+    
+    if(frameCount === ww) {
         noLoop();
     }
     

@@ -18,10 +18,10 @@ body {
 }
 
 .main {
-    position: absolute;
+    
     width: 70vw;
-    margin: 10vw;
-    padding: 2vw 5vw 5vw;
+    margin: 4vh auto;
+    padding: 2vw 5vw;
 
 
     
@@ -46,7 +46,7 @@ h1 {
     font-size: 5em;
     font-weight: bold;
     margin: 0;
-    word-spacing: 1em;
+    word-spacing: .5em;
     text-shadow:1px 2px 4px #ffffff;
 }
 
@@ -95,12 +95,12 @@ small {
 }
 
 .intro > #pintro {
-    text-align: left;
+    text-align: center;
 }
 
 #contact {
     
-    text-align: left;
+    text-align: center;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -186,6 +186,11 @@ small {
 
 /* ABOUT ME PAGE */
 
+article p {
+    width: 60vw;
+    margin: auto;
+    max-width: 50ch;
+}
 
 #hello {
     margin: 50px auto;
@@ -363,9 +368,31 @@ footer {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 950px) {
+
     h1 {
-        font-size: 2.5em;
+        font-size: 4.5em;
+        word-spacing: .25em;
+    }
+    
+
+}
+
+@media screen and (max-width: 760px) {
+    h1 {
+        font-size: 3.5em;
+        word-spacing: .25em;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
         word-spacing: 0em;
         
     }
@@ -373,16 +400,83 @@ footer {
     nav a {
         font-size: 12px;
     }
+
+    .main {
+        width: 80vw;
+        margin: 4vh 5vw;
+    }
+
+    p {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .projects p {
+        width: 70vw;
+    }
+
+    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
+    
+    body {
+        font-size: .75em;
+    }
+    
     h1 {
-        font-size: 2em;
+        font-size: 3em;
         word-spacing: 0;
+    }
+
+    nav a {
+        font-size: .5em;
     }
 
     #canvas {
         width: 100vw;
         height: 100vh;
     }
+    
+    .main {
+        position: fixed;
+        width: 90vw;
+        height: 97vh;
+        margin: auto;
+        
+        border-radius: 0;
+        overflow: scroll;
+    }
+
+    .projects img{
+        display: block;
+        transform: scale(1.5);
+        margin: 10vh auto;
+    }
+
+    .projects p {
+        width: 80vw;
+    }
+
+    #rmobile {
+        transform: scale(.75);
+        margin: -25px -15px;
+    }
+
+    article p {
+        width: 80vw;
+        margin: auto;
+    }
+
+    #hello {
+        margin: 15px auto;
+    }
+
+    .addpost {
+        width: 85vw;
+        text-align: center;
+    }
+
+    
+
 }

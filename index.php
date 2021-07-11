@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script src="background.js"></script>
+    <script defer src="background.js?<?php echo time();?>"></script>
 
     <!-- MAIN SCRIPT -->
     <script defer src="app.js"></script>

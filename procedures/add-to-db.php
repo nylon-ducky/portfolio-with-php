@@ -45,7 +45,7 @@ if ($conn->query($sql) === TRUE) {
     <link defer rel="stylesheet" href="../style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script defer src="../background.js"></script>
+    <script defer src="../background.js?<?php echo time();?>"></script>
 
     <!-- MAIN SCRIPT -->
     <script src="../app.js"></script>

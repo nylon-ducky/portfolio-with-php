@@ -27,7 +27,7 @@ require 'procedures/connect-to-db.php';
     <link rel="stylesheet" href="style.php" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
-    <script src="background.js"></script>
+    <script defer src="background.js?<?php echo time();?>"></script>
 
     <!-- MAIN SCRIPT -->
     <script defer src="app.js"></script>
@@ -56,11 +56,11 @@ require 'procedures/connect-to-db.php';
         <!-- FORM TO SIGN GUEST BOOK -->
         <div class="addpost">
             <form id="postForm" method="POST" action="procedures/add-to-db.php">
-                <label for="name">Name or Handle: </label>
+                <label class="labels" for="name">Name or Handle: </label>
                 <br />
                 <input type="text" name="name" id="name">
                 <br />
-                <label for="message">Message: </label>
+                <label class="labels" for="message">Message: </label>
                 <br />
                 <textarea id="message" name="message" rows="10" cols="20"></textarea>
                 <br />
