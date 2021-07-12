@@ -21,3 +21,5 @@ if($result->num_rows > 0) {
 } else {
     echo ' No data in table.';
 }
+
+require 'delete-empty.php';
