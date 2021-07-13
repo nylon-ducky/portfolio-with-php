@@ -1,3 +1,15 @@
+<?php 
+//If the HTTPS is not found to be "on"
+if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+{
+    //Tell the browser to redirect to the HTTPS URL.
+    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
+    //Prevent the rest of the script from executing.
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +27,8 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"
         integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    
 
     <!--  OLD FONT
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,7 +36,7 @@
     -->
 
     <!-- MY STYLE -->
-    <link rel="stylesheet" href="style.php" media="screen">
+    <link rel="stylesheet" href="style.php?<?php echo time();?>" media="screen">
 
     <!-- p5 BACKGROUND SCRIPT -->
     <script defer src="background.js?<?php echo time();?>"></script>
@@ -66,13 +80,11 @@
             <h3>Look around!</h3>
             <p>
             Feel free to send me an 
-            <a href="mailto:dursodev@gmail.com">
-            email
-            </a>, or checkout the 
-            <a href="guestbook.php">Guest Book.</a>
+            <a href="mailto:Z@hellodurso.com">
+            email</a> or checkout the 
+            <a href="guestbook.php">Guest Book</a>.
             </p>
-            <a href="mailto:dursodev@gmail.com" class="underline">dursodev@gmail.com</a>
-            <a href="guestbook.php" class="underline">Guest Book</a>
+            <a href="mailto:Z@hellodurso.com" class="underline">Z@hellodurso.com</a>
         </footer>
     </div>
 
