@@ -17,7 +17,6 @@ if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- GOOGLE FONTS == MISS FAJARDOSE -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -80,9 +79,9 @@ if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
             <h3>Look around!</h3>
             <p>
             Feel free to send me an 
-            <a href="mailto:Z@hellodurso.com">
+            <a class="underline" href="mailto:Z@hellodurso.com">
             email</a> or checkout the 
-            <a href="guestbook.php">Guest Book</a>.
+            <a class="underline" href="guestbook.php">Guest Book</a>.
             </p>
             <a href="mailto:Z@hellodurso.com" class="underline">Z@hellodurso.com</a>
         </footer>

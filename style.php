@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-    font-family: 'Miss Fajardose', cursive;
+    font-family: 'Miss Fajardose', serif;
     font-size: 5em;
     font-weight: bold;
     margin: 0;
