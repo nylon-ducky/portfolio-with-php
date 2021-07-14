@@ -197,7 +197,7 @@ article p {
     margin: 50px auto;
 }
 
-#hello, h3, h4, h5 {
+#hello, h3, h4, h5, h6 {
     text-align: center;
     font-size: 2em;
 }

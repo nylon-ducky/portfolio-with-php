@@ -85,7 +85,6 @@ require 'procedures/connect-to-db.php';
                 <button class="readless" onclick="readLess(mdurso)">Read Less</button>
 
             </div>
-
         </div>
 
         <div class="projects" id="recipes">
