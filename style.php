@@ -147,6 +147,7 @@ small {
     font-weight: bold;
     font-size: 22.5px;
     text-decoration: none;
+    text-align: center;
     
 }
 
