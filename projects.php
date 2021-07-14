@@ -53,6 +53,40 @@ require 'procedures/connect-to-db.php';
             <a href="guestbook.php">Guest Book</a>
         </nav>
 
+        <div class="projects" id="hellodurso">
+
+            <h2>Hello Durso</h2>
+
+            <div class="buttons">
+                <a class="viewlive" href="https://github.com/nylon-ducky/portfolio-with-php">View Code</a>
+
+                <button class="readmore" onclick="readMore(mdurso)">Read More</button>
+            </div>
+
+            <img class="dursohome" src="assets/hellodurso.png">
+
+            <p>
+                Making this website was a really fun experience. It was my first time using p5.js and was my second project using PHP. I found that I really love working with PHP but don't particularly care for p5. I ran into a few issues using p5.js, but nothing I couldnt handle. I used it to make the dynamic background which I really love because I think it looks like a finger print, which is really representative of one's individuality.
+            </p>
+
+            <div id="mdurso">
+                <img id="Dmobile" src="assets/hellomobile.png">
+
+                <p>
+                    For this website, I wanted a really cool background, so I decided it would either be with Three.js or p5.js and decided on using p5 because I really wanted something that could be different every time you visit, and I could honestly watch this animation all day. I found out that p5 was a bit slow, but with some creative problem solving, I was able to remediate that by controling the amount of frames it goes through, based on screen size. The issue was that it would load fine on a laptop, but on a mobile device (even one with really good specs) it made the website nearly unusable. So by controling the amount of frames with screen size, I was ablle to make it run for a much shorter time on mobile, but still get a nice design, while maintaining an awesome look on PC. 
+                </p>
+
+                <p>
+                    Working with PHP has been really exciting, it's what I used to do the <a href="guestbook.php">Guest Book</a> on this website and also for the Recipe App project below. It's been pretty simple so far which was absolutely not what I expected, but at the same time, I dont know any othe rback end languages, so I have nothing to compare it to. However, My next language will be Python, so once I start building with that, I'll be able to equitably compare the two.
+                </p>
+
+                <img id="Dhalf" src="assets/hellodursohalf.png">
+
+                <button class="readless" onclick="readLess(mdurso)">Read Less</button>
+
+            </div>
+
+        </div>
 
         <div class="projects" id="recipes">
 
@@ -86,6 +120,7 @@ require 'procedures/connect-to-db.php';
                 </p>
 
                 <img class="recipeHome" src="assets/recipes.png">
+                
                 <button class="readless" onclick="readLess(mrecipes)">Read Less</button>
             </div>
 

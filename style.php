@@ -334,18 +334,23 @@ footer {
     background-color: rgba(255, 255, 255, 0.55);
 }
 
-#mtxt, #w2txt, #wtxt, #mclock, #mcalc, #mcloud, #mwhale, #mrecipes {
+#mtxt, #w2txt, #wtxt, #mclock, #mcalc, #mcloud, #mwhale, #mrecipes, #mdurso {
     display: none;
 }
 
-.recipeHome {
+.recipeHome, #hellodurso img, #mechanic img {
     width: 47vw;
     height: 25vw;
 }
 
-#mechanic img {
-    width: 47vw;
-    height: 25vw;
+#hellodurso #Dmobile {
+    width: 30vw;
+    height: 55vh;
+}
+
+#mdurso #Dhalf {
+    width: 30vw;
+    height: 30vh;
 }
 
 #weatherwheel img {
